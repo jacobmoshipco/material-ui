@@ -464,8 +464,8 @@ importers:
         specifier: 5.2.12
         version: 5.2.12(@types/node@18.19.33)
       vite-plugin-pages:
-        specifier: ^0.32.1
-        version: 0.32.1(vite@5.2.12)
+        specifier: ^0.32.2
+        version: 0.32.2(react-router@6.23.1)(vite@5.2.12)
 
   benchmark:
     dependencies:
@@ -2562,7 +2562,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/highlight': 7.24.6
-      picocolors: 1.0.0
+      picocolors: 1.0.1
 
   /@babel/compat-data@7.24.6:
     resolution: {integrity: sha512-aC2DGhBq5eEdyXWqrDInSqQjO0k8xtPRf5YylULqx8MCd6jBtzqfta/3ETMRpuKIc5hyswfO80ObyA1MvkCcUQ==}
@@ -2789,7 +2789,7 @@ packages:
       '@babel/helper-validator-identifier': 7.24.6
       chalk: 2.4.2
       js-tokens: 4.0.0
-      picocolors: 1.0.0
+      picocolors: 1.0.1
 
   /@babel/node@7.24.6(@babel/core@7.24.6):
     resolution: {integrity: sha512-63bD/Kbh1Vl6HapTZLSsyaGlQhhpF1/GpyS1oJotroJKoamOgKKEEKk3iHZAkicjcr+n4V4zdB0V+8siv6AZ5Q==}
@@ -9138,7 +9138,7 @@ packages:
       caniuse-lite: 1.0.30001599
       fraction.js: 4.3.7
       normalize-range: 0.1.2
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       postcss: 8.4.38
       postcss-value-parser: 4.2.0
     dev: false
@@ -17155,8 +17155,8 @@ packages:
     resolution: {integrity: sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==}
     dev: true
 
-  /picocolors@1.0.0:
-    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
+  /picocolors@1.0.1:
+    resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
 
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
@@ -17273,7 +17273,7 @@ packages:
       fs-extra: 11.2.0
       get-stdin: 9.0.0
       globby: 14.0.1
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       postcss: 8.4.38
       postcss-load-config: 5.1.0(postcss@8.4.38)(tsx@4.11.0)
       postcss-reporter: 7.1.0(postcss@8.4.38)
@@ -17367,7 +17367,7 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       postcss: 8.4.38
       thenby: 1.3.4
     dev: false
@@ -17419,7 +17419,7 @@ packages:
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       source-map-js: 1.2.0
 
   /postcss@8.4.31:
@@ -17427,7 +17427,7 @@ packages:
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       source-map-js: 1.2.0
 
   /postcss@8.4.38:
@@ -17435,7 +17435,7 @@ packages:
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       source-map-js: 1.2.0
 
   /prelude-ls@1.2.1:
@@ -17503,7 +17503,7 @@ packages:
       find-up: 5.0.0
       ignore: 5.3.1
       mri: 1.2.0
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       picomatch: 3.0.1
       prettier: 3.2.5
       tslib: 2.6.2
@@ -19694,7 +19694,7 @@ packages:
       meow: 10.1.5
       micromatch: 4.0.5
       normalize-path: 3.0.0
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       postcss: 8.4.38
       postcss-resolve-nested-selector: 0.1.1
       postcss-safe-parser: 6.0.0(postcss@8.4.38)
@@ -19821,7 +19821,7 @@ packages:
       css-tree: 2.3.1
       css-what: 6.1.0
       csso: 5.0.5
-      picocolors: 1.0.0
+      picocolors: 1.0.1
     dev: true
 
   /symbol-observable@1.2.0:
@@ -19862,7 +19862,7 @@ packages:
       micromatch: 4.0.5
       normalize-path: 3.0.0
       object-hash: 3.0.0
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       postcss: 8.4.38
       postcss-import: 15.1.0(postcss@8.4.38)
       postcss-js: 4.0.1(postcss@8.4.38)
@@ -20502,7 +20502,7 @@ packages:
     dependencies:
       browserslist: 4.23.0
       escalade: 3.1.1
-      picocolors: 1.0.0
+      picocolors: 1.0.1
 
   /update-check@1.5.4:
     resolution: {integrity: sha512-5YHsflzHP4t1G+8WGPlvKbJEbAJGCgw+Em+dGR1KmBUbr1J36SJBqlHLjR7oob7sco5hWHGQVcr9B2poIVDDTQ==}
@@ -20653,13 +20653,22 @@ packages:
       vfile-message: 2.0.4
     dev: false
 
-  /vite-plugin-pages@0.32.1(vite@5.2.12):
-    resolution: {integrity: sha512-4oPlIbb+J+zpJGfT2xI/27xqY+qTkRc3MBgWKfbW6IWM3CTcSyybuL9kRMCFRdBHfmgkF28qDs7fqVf/HjH1Xw==}
+  /vite-plugin-pages@0.32.2(react-router@6.23.1)(vite@5.2.12):
+    resolution: {integrity: sha512-wX4lRlylcTggwHUH7bV1SVJpQMz4ZUkbzzAbbBBH5M7c/9Yx5rAqrjYELIca6vLCoCpSd+r6/WI7KnvRK/Drcg==}
     peerDependencies:
+      '@solidjs/router': '*'
       '@vue/compiler-sfc': ^2.7.0 || ^3.0.0
+      react-router: '*'
       vite: ^2.0.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0
+      vue-router: '*'
     peerDependenciesMeta:
+      '@solidjs/router':
+        optional: true
       '@vue/compiler-sfc':
+        optional: true
+      react-router:
+        optional: true
+      vue-router:
         optional: true
     dependencies:
       '@types/debug': 4.1.12
@@ -20669,7 +20678,8 @@ packages:
       fast-glob: 3.3.2
       json5: 2.2.3
       local-pkg: 0.5.0
-      picocolors: 1.0.0
+      picocolors: 1.0.1
+      react-router: 6.23.1(react@18.2.0)
       vite: 5.2.12(@types/node@18.19.33)
       yaml: 2.4.2
     transitivePeerDependencies:
@@ -20784,7 +20794,7 @@ packages:
       gzip-size: 6.0.0
       html-escaper: 2.0.2
       opener: 1.5.2
-      picocolors: 1.0.0
+      picocolors: 1.0.1
       sirv: 2.0.3
       ws: 7.5.9
     transitivePeerDependencies:
